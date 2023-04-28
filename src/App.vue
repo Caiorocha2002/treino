@@ -1,11 +1,14 @@
 <template>
 
    <headerComponent/>
+
+   <main :class="page-content">
+      
   <img class="foto--ponte" src="../src/assets/fotoPonte.jpeg" alt="">
    <TextComponent tag="h1"> "A natureza nos ensina lições valiosas 
       sobre a vida e a sobrevivência."</TextComponent>
-
-
+</main>
+<footerCompnent/>
 </template>
 
 <script>
@@ -13,6 +16,7 @@
 
 import TextComponent from './components/Text/TextComponent.vue';
 import headerComponent from './Header/HeaderComponent.vue';
+import footerCompnent from './footer/footer.vue'
 
 
  export default{
@@ -20,6 +24,7 @@ import headerComponent from './Header/HeaderComponent.vue';
     components:{
        TextComponent,
        headerComponent,
+       footerCompnent,
        
     } ,
 
@@ -46,6 +51,7 @@ body {
   
 
  }
+
 
   
 </style>
