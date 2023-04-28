@@ -61,7 +61,8 @@ margin: 3px 0;
     visibility: hidden;
     position:absolute;
     top:3em;
-   
+   z-index:5;
+   color: #fff;
     margin:auto 0;
 
 }

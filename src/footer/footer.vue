@@ -2,30 +2,38 @@
 
 
 export default{
-    name:'footerCompnent',
-    props:{
-        footer:{
-            default:'div',
+    name:'footerComponent',
+   
 
-        }
-
-    }
+    
 }
 </script>
 
 <template>
-    <component class="footer" :is="footer">
-        <slot/>
-    </component>
+<div class="footer">
+    <img src="../assets/logo.jpeg" alt="">
+  
+</div>
 </template>
 
 <style>
 .footer{
     height:3em;
-    background-color: #000;
+    background-color: #f6f6f6;
     width:100%;
     position:absolute;
+    bottom:0;
+    
     left:0;
     
+}
+img{
+    position: absolute;
+    width:5em;
+    top:1.5em;
+  left: 4em;
+    margin:0 auto;
+    
+
 }
 </style>
