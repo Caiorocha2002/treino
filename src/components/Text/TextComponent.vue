@@ -4,6 +4,8 @@
     
    <slot/>
 </component> 
+
+
     
 </template>
 
@@ -14,7 +16,8 @@ export default{
         tag: {   
         type: String,
         default: 'h1',
-    }
+    },
+ 
   
     },
 
@@ -29,6 +32,9 @@ export default{
     position: absolute;
 top: 1em;
 left: 0;
+}
+.paragrafo{
+    color: #000;
 }
 
 </style>
