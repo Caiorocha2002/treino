@@ -2,6 +2,11 @@
    <headerComponent />
 
    <img class="foto--ponte" src="../src/assets/fotoPonte.jpeg" alt="">
+
+   <div class="caixaUm">
+      <TextComponent tag="h1"> "A natureza nos ensina lições valiosas
+      sobre a vida e a sobrevivência."</TextComponent>
+   </div>
    <TextComponent tag="h1"> "A natureza nos ensina lições valiosas
       sobre a vida e a sobrevivência."</TextComponent>
 
@@ -36,6 +41,9 @@ body {
    font-family: Arial, sans-serif;
    margin: 0;
    padding: 0;
+}
+.caixaUm{
+   
 }
 
 .container {
