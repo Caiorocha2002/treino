@@ -5,8 +5,14 @@
 </script>
 
 <template>
+<div class="container">
+
+      <h1>Ubatuba</h1>
+
     <p>
-        Se você é um amante da natureza e está procurando aventuras ao ar livre, Ubatuba é o lugar ideal para você. Neste artigo, vamos falar sobre algumas das melhores trilhas da região e dar algumas dicas úteis para ajudar a planejar sua próxima aventura.
+
+
+     Se você é um amante da natureza e está procurando aventuras ao ar livre, Ubatuba é o lugar ideal para você. Neste artigo, vamos falar sobre algumas das melhores trilhas da região e dar algumas dicas úteis para ajudar a planejar sua próxima aventura.
 
 Trilha das Sete Praias
 
@@ -32,20 +38,82 @@ Antes de sair para uma trilha, é importante lembrar-se de levar água, lanches,
 
 Além disso, é importante lembrar-se de respeitar o meio ambiente, mantendo-se nas trilhas marcadas e não deixando lixo pelo caminho. Também é importante verificar as condições climáticas e de trilhas antes de sair, para garantir a sua segurança, algumas trilhas são obrigatorias o acompanhamento de guia, certifique antes.
     </p>
+  </div>
+
 </template>
 <style>
+.container{
+  display: grid;
+ 
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
 p{
     color:#000;
     font-size: o.5em;
     font-family: 'Sigmar', cursive;
     position:absolute;
     text-align: center;
-    top: 5em;
+    
     top: 19em;
   left: 0em;
   margin: 0 1em;
   font-size: 1em;
 }
-    
 
+@media screen and (min-width:185px) and (max-width: 210px)  {
+  p{
+    top:21em;
+  }
+  
+}
+@media screen and (min-width:211px) and (max-width: 245px) {
+  p{
+    top:24em;
+  }
+}
+@media screen and (min-width:246px) and (max-width:277px){
+  p{
+    top:27em;
+  }
+
+}
+@media screen and (min-width:278px) and (max-width:313px){
+p{
+  top:30em;
+}
+}
+@media screen and (min-width:314px) and (max-width: 347px){
+  p{
+    top:33em;
+  }
+}
+  @media screen and (min-width:348px)and (max-width:381px){
+    p{
+      top:36em;
+    }
+  }
+  @media screen and (min-width:382px){
+    p{
+      top:40em;
+    }
+  }
+
+  @media screen and (min-width:437px){
+P{
+  top:44em;
+}
+  }
+  @media screen and (min-width:479px){
+    p{
+      top:47em;
+    }
+  }
+  @media screen and (min-width:521px){
+    p{
+      top:51em;
+    }
+  }
 </style>

@@ -3,13 +3,12 @@
 
    <img class="foto--ponte" src="../src/assets/fotoPonte.jpeg" alt="">
 
-   <div class="caixaUm">
+   
       <TextComponent tag="h1"> "A natureza nos ensina lições valiosas
       sobre a vida e a sobrevivência."</TextComponent>
-   </div>
-   <TextComponent tag="h1"> "A natureza nos ensina lições valiosas
-      sobre a vida e a sobrevivência."</TextComponent>
 
+       
+      
    <ComponentP />
 
    <footerComponent />
@@ -22,6 +21,7 @@ import TextComponent from './components/Text/TextComponent.vue';
 import headerComponent from './Header/HeaderComponent.vue';
 import footerComponent from './footer/footer.vue'
 import ComponentP from './components/componentP/componentP.vue'
+import componentTitulo from './components/Text/titulosComponent.vue'
 
 export default {
    name: 'App',
@@ -30,6 +30,7 @@ export default {
       headerComponent,
       footerComponent,
       ComponentP,
+      componentTitulo,
 
    },
 
@@ -42,9 +43,7 @@ body {
    margin: 0;
    padding: 0;
 }
-.caixaUm{
-   
-}
+
 
 .container {
    max-width: 1200px;
@@ -57,7 +56,11 @@ body {
    top: 3em;
    width: 100%;
    left: 0;
-
-
+   
+}
+@media screen and (min-width:555px){
+   .foto--ponte{
+      height: 44em;
+   }
 }
 </style>

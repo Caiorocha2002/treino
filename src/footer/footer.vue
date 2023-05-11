@@ -23,7 +23,7 @@ export default{
     width:100%;
     position:fixed;
     bottom:0;
-    
+    top:100vh;
     left:0;
     
 }
